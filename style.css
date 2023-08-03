@@ -27,7 +27,7 @@ body {
     margin-right: 40px;
 }
 
-.search-form input[type=search] {
+.search-form input[type=text] {
     width: 300px;
     padding: 10px 40px 10px 20px;
     border: 1px solid #fff;
@@ -47,4 +47,23 @@ body {
     height: 25px;
     margin-bottom: -5px;
     background-color: #fff;
+}
+
+.gif-container {
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    margin: 10px;
+}
+
+.gif {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
 }

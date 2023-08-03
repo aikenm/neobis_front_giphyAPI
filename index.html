@@ -8,18 +8,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <header class="header">
-    <image src="images/open-uri20210108-68-1g9gpyy.png" class="logo-icon"></image>
+    <img src="images/logo.png" class="logo-icon"></img>
     <span class="logo-title"><b>GIPHY API</b></span>
     <form class="search-form">
-        <input id="search" type="search" placeholder="e. g. monkey king" />
-        <button type="submit" class="search-button">
-            <image src="images/1024px-Search_Icon.svg.png" class="search-icon"></image>
+        <input id="search-input" type="text" placeholder="e. g. monkey king" />
+        <button type="submit" class="search-button" id="search-button">
+            <img src="images/search-icon.png" class="search-icon"></img>
         </button>
     </form>
 </header>
 
 <body>
-
+    <div class="gif-container" id="gif-container"></div>
     <script src="script.js"></script>
 </body>
 
