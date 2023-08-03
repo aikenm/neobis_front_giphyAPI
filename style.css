@@ -29,11 +29,10 @@ body {
 
 .search-form input[type=search] {
     width: 300px;
-    padding: 10px;
+    padding: 10px 40px 10px 20px;
     border: 1px solid #fff;
     border-radius: 30px;
-    font-size: 20px;
-    padding-right: 40px;
+    font-size: 18px;
     outline: none;
 }
 
@@ -44,8 +43,8 @@ body {
 }
 
 .search-icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-bottom: -5px;
     background-color: #fff;
 }
